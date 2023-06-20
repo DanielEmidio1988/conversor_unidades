@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Unidades</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <section class="container">
+            <h1>Conversor de Unidades</h1>
+            <div class="input-group">
+                <label for="input">Digite a Quantidade:</label>
+                <input type="number" id="input" placeholder="0">
+            </div>
+            <div class="input-group">
+                <label for="from">De:</label>
+                <select id="from">
+                    <option value="m">Metro(s)</option>
+                    <option value="km">Quilometro(s)</option>
+                    <option value="cm">Centimetro(s)</option>
+                    <option value="mm">Milimetro(s)</option>
+                </select>
+            </div>
+            <div class="input-group">
+                <label for="to">Para:</label>
+                <select id="to">
+                    <option value="m">Metro(s)</option>
+                    <option value="km">Quilometro(s)</option>
+                    <option value="cm">Centimetro(s)</option>
+                    <option value="mm">Milimetro(s)</option>
+                </select>
+            </div>
+            <button id="convert-btn">Converter</button>
+            <div class="output-group">
+                <label for="output">Resultado</label>
+                <input type="number" id="output" readonly>
+            </div>
+            <div id="message"></div>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido com ❤️ por Daniel Emidio</p>
+        <div>
+            <a href="https://github.com/DanielEmidio1988" target="_blank"><img src="./assets/logo-github.svg" alt="logo-github"></a>
+            <a href="http://linkedin.com.br/in/danielemidio1988" target="_blank"><img src="./assets/logo-linkedin.svg" alt="logo-linkedin"></a>
+        </div>
+    </footer>
+</body>
+</html>
